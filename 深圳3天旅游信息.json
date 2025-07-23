@@ -1,0 +1,203 @@
+{
+    "city": "深圳",
+    "days": 3,
+    "base路线": {
+        "base_guide": "### 深圳三日游攻略\n\n#### 第1天：历史文化之旅\n**上午**\n- **深圳博物馆**\n  - 到达时间：9:00\n  - 游玩时间：2小时\n  - 描述：了解深圳的历史文化，不容错过的景点。\n\n**中午**\n- **午餐推荐**：尝试当地的特色美食，如光明乳鸽或公明烧鹅。\n\n**下午**\n- **深圳市当代艺术与城市规划馆**\n  - 到达时间：13:00\n  - 游玩时间：2小时\n  - 描述：感受现代艺术的魅力，了解深圳的城市发展。\n\n- **莲花山公园**\n  - 到达时间：15:00\n  - 游玩时间：1.5小时\n  - 描述：登高望远，欣赏深圳城市美景。\n\n**晚上**\n- **晚餐推荐**：在深圳老街美食街尝试各种小吃，如老长沙臭豆腐、鲍师傅、蜜雪冰城等。\n\n#### 第2天：自然与休闲\n**上午**\n- **仙湖植物园**\n  - 到达时间：9:00\n  - 游玩时间：3小时\n  - 描述：观赏樱花和其他植物，享受宁静的自然环境。\n\n**中午**\n- **午餐推荐**：在植物园附近的餐厅享用椰子鸡或酸菜鱼。\n\n**下午**\n- **世界之窗**\n  - 到达时间：13:00\n  - 游玩时间：4小时\n  - 描述：体验世界各地的著名景点和文化。\n\n**晚上**\n- **海上世界**\n  - 到达时间：18:00\n  - 游玩时间：2小时\n  - 描述：漫步海边，享受夜生活的氛围。\n\n#### 第3天：现代娱乐与购物\n**上午**\n- **东部华侨城**\n  - 到达时间：9:00\n  - 游玩时间：4小时\n  - 描述：体验丰富的娱乐项目和美丽的自然风光。\n\n**中午**\n- **午餐推荐**：在华侨城内的餐厅品尝当地特色美食。\n\n**下午**\n- **中信金沙湾**\n  - 到达时间：14:00\n  - 游玩时间：2小时\n  - 描述：享受沙滩和海洋的乐趣。\n\n**晚上**\n- **购物推荐**：前往深圳的主要购物中心，如东门步行街、华强北等地购买纪念品或电子产品。\n\n### 特色美食推荐\n- **光明乳鸽**：外皮酥脆，肉质鲜美。\n- **公明烧鹅**：皮脆肉嫩，色泽红亮。\n- **酸菜鱼**：酸辣可口，鱼肉鲜嫩。\n- **椰子鸡**：清淡鲜美，营养丰富。\n\n### 小贴士\n- 深圳公共交通便利，建议使用深圳通或乘坐地铁出行。\n- 主要火车站包括深圳东站、深圳站、深圳西站、深圳北站（高铁）。"
+    },
+    "景点": [
+        {
+            "name": "世界之窗",
+            "describe": "深圳旅游必打卡景点之一，景区内几乎囊括世界上所有的著名景观和建筑。",
+            "图片url": "https://cdn.hk01.com/di/media/images/dw/20230424/727211524715712512147380.jpeg/x36R5B5kczX9yWS3rt0yyfR2wAnWutmbZU5ivWVOYr0?v=w1920"
+        },
+        {
+            "name": "阿卡那拉琉璃海度假区",
+            "describe": "一个集休闲、娱乐、度假为一体的综合性度假区。",
+            "图片url": "https://dimg04.c-ctrip.com/images/1me6912000eyg662l4B58_R_640_10000_Q90.jpg?proc=source/tripcommunity"
+        },
+        {
+            "name": "玫瑰海岸文化旅游度假区",
+            "describe": "以浪漫爱情为主题的文化旅游度假区，适合情侣游玩。",
+            "图片url": "https://www.dpxq.gov.cn/img/0/39/39942/7804946.png"
+        },
+        {
+            "name": "深圳博物馆",
+            "describe": "如果你想了解深圳，如果你对历史感兴趣，那就不容错过。",
+            "图片url": "https://img95.699pic.com/xsj/3a/ec/qe.jpg!/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast"
+        },
+        {
+            "name": "海上世界",
+            "describe": "集餐饮、购物、娱乐于一体的大型综合旅游项目。",
+            "图片url": "https://imgs.699pic.com/images/507/760/967.jpg!list1x.v2"
+        },
+        {
+            "name": "桔钓沙",
+            "describe": "自然风光优美的海滩，适合游泳和日光浴。",
+            "图片url": "https://ak-d.tripcdn.com/images/0102w12000h14oxu26265.jpg?proc=source%2Ftrip"
+        },
+        {
+            "name": "东部华侨城4A",
+            "describe": "国家4A级旅游景区，拥有丰富的自然景观和文化活动。",
+            "图片url": "https://dimg04.c-ctrip.com/images/1me1r12000im7a6jlD338_W_320_0_Q80.jpg?proc=source/tripcommunity"
+        },
+        {
+            "name": "中信金沙湾",
+            "describe": "集海滩、娱乐、度假于一体的综合性旅游区。",
+            "图片url": "https://dimg04.c-ctrip.com/images/1me6j12000bhnyzgl1F83_W_320_0_Q80.jpg?proc=source/tripcommunity"
+        },
+        {
+            "name": "深圳梅拉尼亚小镇",
+            "describe": "欧式建筑风格小镇，面积不大但特别适合拍照。",
+            "图片url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10161410891797902"
+        },
+        {
+            "name": "仙湖植物园",
+            "describe": "以樱花等花卉著称的植物园，适合赏花和散步。",
+            "图片url": "https://imgs.699pic.com/images/507/749/028.jpg!list1x.v2"
+        },
+        {
+            "name": "深圳市当代艺术与城市规划馆",
+            "describe": "展示当代艺术和城市规划的现代展馆。",
+            "图片url": "https://images.adsttc.com/media/images/583c/2371/e58e/ce78/6500/0090/large_jpg/P_0711_F009_DM.jpg?1480336224"
+        },
+        {
+            "name": "莲花山公园",
+            "describe": "位于市中心的大型公园，可以远眺深圳城市风光。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        }
+    ],
+    "美食": [
+        {
+            "name": "深圳盆菜",
+            "describe": "一道色香味俱佳的传统岭南菜肴。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "公明烧鹅",
+            "describe": "深圳公明镇的传统名菜，以其皮脆肉嫩、色泽红亮而备受食客喜爱。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "光明乳鸽",
+            "describe": "著名的传统美食，以其鲜美的口感和独特的风味著称。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "酸菜鱼",
+            "describe": "大名鼎鼎的特色菜肴，以其酸辣可口的味道受到欢迎。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "老长沙臭豆腐",
+            "describe": "具有独特风味的湖南小吃，外焦里嫩，味道鲜美。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "鲍师傅",
+            "describe": "以各种精美糕点闻名的店铺，深受食客喜爱。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "蜜雪冰城",
+            "describe": "以冷饮和甜品为主的连锁品牌，深受年轻人喜爱。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "车轮饼",
+            "describe": "一种传统的台湾小吃，外皮香脆，内馅丰富多样。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "云片糕",
+            "describe": "深圳传统小吃之一，口感细腻，甜而不腻。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "米通",
+            "describe": "深圳传统小吃之一，香脆可口。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "油角",
+            "describe": "深圳传统小吃之一，外形似角，香甜可口。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "煎堆",
+            "describe": "深圳传统小吃之一，外皮香脆，内里软糯。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "合桃酥",
+            "describe": "深圳传统小吃之一，以核桃为主要原料，香甜可口。",
+            "图片url": "https://pic0.sucaisucai.com/09/76/09676110_2.jpg"
+        },
+        {
+            "name": "炒米饼",
+            "describe": "深圳传统小吃之一，香脆可口，适合搭配茶水。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "宝安云片糕",
+            "describe": "宝安区的传统小吃，口感细腻，甜而不腻。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "烤沙井蠔",
+            "describe": "沙井地区的特色海鲜美食，烤制后鲜美多汁。",
+            "图片url": "https://pic0.sucaisucai.com/09/76/09676110_2.jpg"
+        },
+        {
+            "name": "公明濑粉",
+            "describe": "公明地区的一种传统米粉小吃，滑爽可口。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "宝安福永魚腐",
+            "describe": "宝安福永地区的传统美食，鱼肉制成的腐竹状食品，口感鲜美。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "松岗腊鸭",
+            "describe": "松岗地区的传统美食，腊鸭制作工艺独特，味道鲜美。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        }
+    ],
+    "美食店铺": [
+        {
+            "name": "嘉华小吃（蛇口市场店）",
+            "describe": "位于蛇口市场的特色小吃店，提供多种传统深圳小吃。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "潮新一味普宁肠粉王（梅林店）",
+            "describe": "位于梅林的特色肠粉店，以其独特的普宁肠粉闻名。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "百草堂祖传凉茶铺（蛇口店）",
+            "describe": "位于蛇口的特色凉茶铺，提供多种传统凉茶。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "好好味面家（桃花店）",
+            "describe": "位于桃花的面食店，提供多种传统面食。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "潭记烧腊（景田店）",
+            "describe": "位于景田的烧腊店，以其美味的烧腊制品闻名。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "有章牛杂（石厦店）",
+            "describe": "位于石厦的牛杂店，提供多种牛杂美食。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        },
+        {
+            "name": "禄鼎记",
+            "describe": "著名的酸菜鱼餐厅，以其大名鼎鼎的酸菜鱼闻名。",
+            "图片url": "http://img.bytravel.cn/684/6842/wb380694444.jpg"
+        }
+    ]
+}

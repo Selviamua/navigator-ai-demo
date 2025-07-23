@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><title>旅行推荐</title>
+<style>
+
+    body {
+       font-family: "Microsoft YaHei", sans-serif;
+       margin: 20px;
+       background-color: #f8f8f8;
+       line-height: 1.6;
+    }
+    h1, h2 {
+       color: #333;
+    }
+    .itinerary-text {
+       background-color: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+       margin-bottom: 30px;
+    }
+    .card-container {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+       margin: 20px 0;
+    }
+    .card {
+       flex: 0 0 calc(300px);
+       border: 1px solid #ccc;
+       border-radius: 10px;
+       overflow: hidden;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+       background-color: #fff;
+    }
+    .card-image {
+       width: 100%;
+       height: 200px;
+       overflow: hidden;
+       background: #f8f8f8;
+       text-align: center;
+    }
+    .card-image img {
+       max-width: 100%;
+       max-height: 100%;
+       object-fit: cover;
+    }
+    .card-content {
+       padding: 10px 15px;
+    }
+    .card-content h3 {
+       margin-top: 0;
+       margin-bottom: 10px;
+       font-size: 18px;
+    }
+    .card-content p {
+       margin: 5px 0;
+    }
+    .image-center {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .image-center img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+</style></head><body>
+<h1>旅行行程与推荐</h1>
+<div class="itinerary-text">
+<h2>Day1:</h2>
+<p>- 早餐：车轮饼</p>
+<p>  - 描述：一种传统的台湾小吃，外皮香脆，内馅丰富多样。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 上午：莲花山公园</p>
+<p>  - 描述：位于市中心的大型公园，可以远眺深圳城市风光。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 午餐：光明乳鸽</p>
+<p>  - 描述：著名的传统美食，以其鲜美的口感和独特的风味著称。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 下午：深圳博物馆</p>
+<p>  - 描述：如果你想了解深圳，如果你对历史感兴趣，那就不容错过。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://img95.699pic.com/xsj/3a/ec/qe.jpg!/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 晚餐：老长沙臭豆腐</p>
+<p>  - 描述：具有独特风味的湖南小吃，外焦里嫩，味道鲜美。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 夜间活动：海上世界</p>
+<p>  - 描述：集餐饮、购物、娱乐于一体的大型综合旅游项目。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://imgs.699pic.com/images/507/760/967.jpg!list1x.v2" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 住宿：深圳市中心酒店</p>
+<h2>Day2:</h2>
+<p>- 早餐：鲍师傅糕点</p>
+<p>  - 描述：以各种精美糕点闻名的店铺，深受食客喜爱。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 上午：世界之窗</p>
+<p>  - 描述：深圳旅游必打卡景点之一，景区内几乎囊括世界上所有的著名景观和建筑。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://cdn.hk01.com/di/media/images/dw/20230424/727211524715712512147380.jpeg/x36R5B5kczX9yWS3rt0yyfR2wAnWutmbZU5ivWVOYr0?v=w1920" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：4小时</p>
+<p>- 午餐：公明烧鹅</p>
+<p>  - 描述：深圳公明镇的传统名菜，以其皮脆肉嫩、色泽红亮而备受食客喜爱。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 下午：深圳梅拉尼亚小镇</p>
+<p>  - 描述：欧式建筑风格小镇，面积不大但特别适合拍照。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10161410891797902" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 晚餐：酸菜鱼</p>
+<p>  - 描述：大名鼎鼎的特色菜肴，以其酸辣可口的味道受到欢迎。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 住宿：深圳市中心酒店</p>
+<h2>Day3:</h2>
+<p>- 早餐：云片糕</p>
+<p>  - 描述：深圳传统小吃之一，口感细腻，甜而不腻。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 上午：玫瑰海岸文化旅游度假区</p>
+<p>  - 描述：以浪漫爱情为主题的文化旅游度假区，适合情侣游玩。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://www.dpxq.gov.cn/img/0/39/39942/7804946.png" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：3小时</p>
+<p>- 午餐：深圳盆菜</p>
+<p>  - 描述：一道色香味俱佳的传统岭南菜肴。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 下午：桔钓沙</p>
+<p>  - 描述：自然风光优美的海滩，适合游泳和日光浴。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://ak-d.tripcdn.com/images/0102w12000h14oxu26265.jpg?proc=source%2Ftrip" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 晚餐：蜜雪冰城</p>
+<p>  - 描述：以冷饮和甜品为主的连锁品牌，深受年轻人喜爱。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 返程：结束愉快的旅程，返回家中。</p>
+</div>
+<h2>景点推荐</h2>
+<div class="card-container">
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://cdn.hk01.com/di/media/images/dw/20230424/727211524715712512147380.jpeg/x36R5B5kczX9yWS3rt0yyfR2wAnWutmbZU5ivWVOYr0?v=w1920" alt="世界之窗" />
+            </div>
+            <div class="card-content">
+                <h3>世界之窗</h3>
+                <p><strong>距离:</strong> </p>
+                <p>深圳旅游必打卡景点之一，景区内几乎囊括世界上所有的著名景观和建筑。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://dimg04.c-ctrip.com/images/1me6912000eyg662l4B58_R_640_10000_Q90.jpg?proc=source/tripcommunity" alt="阿卡那拉琉璃海度假区" />
+            </div>
+            <div class="card-content">
+                <h3>阿卡那拉琉璃海度假区</h3>
+                <p><strong>距离:</strong> </p>
+                <p>一个集休闲、娱乐、度假为一体的综合性度假区。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://www.dpxq.gov.cn/img/0/39/39942/7804946.png" alt="玫瑰海岸文化旅游度假区" />
+            </div>
+            <div class="card-content">
+                <h3>玫瑰海岸文化旅游度假区</h3>
+                <p><strong>距离:</strong> </p>
+                <p>以浪漫爱情为主题的文化旅游度假区，适合情侣游玩。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://img95.699pic.com/xsj/3a/ec/qe.jpg!/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast" alt="深圳博物馆" />
+            </div>
+            <div class="card-content">
+                <h3>深圳博物馆</h3>
+                <p><strong>距离:</strong> </p>
+                <p>如果你想了解深圳，如果你对历史感兴趣，那就不容错过。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://imgs.699pic.com/images/507/760/967.jpg!list1x.v2" alt="海上世界" />
+            </div>
+            <div class="card-content">
+                <h3>海上世界</h3>
+                <p><strong>距离:</strong> </p>
+                <p>集餐饮、购物、娱乐于一体的大型综合旅游项目。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://ak-d.tripcdn.com/images/0102w12000h14oxu26265.jpg?proc=source%2Ftrip" alt="桔钓沙" />
+            </div>
+            <div class="card-content">
+                <h3>桔钓沙</h3>
+                <p><strong>距离:</strong> </p>
+                <p>自然风光优美的海滩，适合游泳和日光浴。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://dimg04.c-ctrip.com/images/1me1r12000im7a6jlD338_W_320_0_Q80.jpg?proc=source/tripcommunity" alt="东部华侨城4A" />
+            </div>
+            <div class="card-content">
+                <h3>东部华侨城4A</h3>
+                <p><strong>距离:</strong> </p>
+                <p>国家4A级旅游景区，拥有丰富的自然景观和文化活动。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://dimg04.c-ctrip.com/images/1me6j12000bhnyzgl1F83_W_320_0_Q80.jpg?proc=source/tripcommunity" alt="中信金沙湾" />
+            </div>
+            <div class="card-content">
+                <h3>中信金沙湾</h3>
+                <p><strong>距离:</strong> </p>
+                <p>集海滩、娱乐、度假于一体的综合性旅游区。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10161410891797902" alt="深圳梅拉尼亚小镇" />
+            </div>
+            <div class="card-content">
+                <h3>深圳梅拉尼亚小镇</h3>
+                <p><strong>距离:</strong> </p>
+                <p>欧式建筑风格小镇，面积不大但特别适合拍照。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://imgs.699pic.com/images/507/749/028.jpg!list1x.v2" alt="仙湖植物园" />
+            </div>
+            <div class="card-content">
+                <h3>仙湖植物园</h3>
+                <p><strong>距离:</strong> </p>
+                <p>以樱花等花卉著称的植物园，适合赏花和散步。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://images.adsttc.com/media/images/583c/2371/e58e/ce78/6500/0090/large_jpg/P_0711_F009_DM.jpg?1480336224" alt="深圳市当代艺术与城市规划馆" />
+            </div>
+            <div class="card-content">
+                <h3>深圳市当代艺术与城市规划馆</h3>
+                <p><strong>距离:</strong> </p>
+                <p>展示当代艺术和城市规划的现代展馆。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="莲花山公园" />
+            </div>
+            <div class="card-content">
+                <h3>莲花山公园</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于市中心的大型公园，可以远眺深圳城市风光。</p>
+            </div>
+            </div>
+            
+</div>
+<h2>美食推荐</h2>
+<div class="card-container">
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="深圳盆菜" />
+            </div>
+            <div class="card-content">
+                <h3>深圳盆菜</h3>
+                <p>一道色香味俱佳的传统岭南菜肴。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="公明烧鹅" />
+            </div>
+            <div class="card-content">
+                <h3>公明烧鹅</h3>
+                <p>深圳公明镇的传统名菜，以其皮脆肉嫩、色泽红亮而备受食客喜爱。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="光明乳鸽" />
+            </div>
+            <div class="card-content">
+                <h3>光明乳鸽</h3>
+                <p>著名的传统美食，以其鲜美的口感和独特的风味著称。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="酸菜鱼" />
+            </div>
+            <div class="card-content">
+                <h3>酸菜鱼</h3>
+                <p>大名鼎鼎的特色菜肴，以其酸辣可口的味道受到欢迎。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="老长沙臭豆腐" />
+            </div>
+            <div class="card-content">
+                <h3>老长沙臭豆腐</h3>
+                <p>具有独特风味的湖南小吃，外焦里嫩，味道鲜美。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="鲍师傅" />
+            </div>
+            <div class="card-content">
+                <h3>鲍师傅</h3>
+                <p>以各种精美糕点闻名的店铺，深受食客喜爱。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="蜜雪冰城" />
+            </div>
+            <div class="card-content">
+                <h3>蜜雪冰城</h3>
+                <p>以冷饮和甜品为主的连锁品牌，深受年轻人喜爱。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="车轮饼" />
+            </div>
+            <div class="card-content">
+                <h3>车轮饼</h3>
+                <p>一种传统的台湾小吃，外皮香脆，内馅丰富多样。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="云片糕" />
+            </div>
+            <div class="card-content">
+                <h3>云片糕</h3>
+                <p>深圳传统小吃之一，口感细腻，甜而不腻。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="米通" />
+            </div>
+            <div class="card-content">
+                <h3>米通</h3>
+                <p>深圳传统小吃之一，香脆可口。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="油角" />
+            </div>
+            <div class="card-content">
+                <h3>油角</h3>
+                <p>深圳传统小吃之一，外形似角，香甜可口。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="煎堆" />
+            </div>
+            <div class="card-content">
+                <h3>煎堆</h3>
+                <p>深圳传统小吃之一，外皮香脆，内里软糯。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://pic0.sucaisucai.com/09/76/09676110_2.jpg" alt="合桃酥" />
+            </div>
+            <div class="card-content">
+                <h3>合桃酥</h3>
+                <p>深圳传统小吃之一，以核桃为主要原料，香甜可口。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="炒米饼" />
+            </div>
+            <div class="card-content">
+                <h3>炒米饼</h3>
+                <p>深圳传统小吃之一，香脆可口，适合搭配茶水。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="宝安云片糕" />
+            </div>
+            <div class="card-content">
+                <h3>宝安云片糕</h3>
+                <p>宝安区的传统小吃，口感细腻，甜而不腻。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://pic0.sucaisucai.com/09/76/09676110_2.jpg" alt="烤沙井蠔" />
+            </div>
+            <div class="card-content">
+                <h3>烤沙井蠔</h3>
+                <p>沙井地区的特色海鲜美食，烤制后鲜美多汁。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="公明濑粉" />
+            </div>
+            <div class="card-content">
+                <h3>公明濑粉</h3>
+                <p>公明地区的一种传统米粉小吃，滑爽可口。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="宝安福永魚腐" />
+            </div>
+            <div class="card-content">
+                <h3>宝安福永魚腐</h3>
+                <p>宝安福永地区的传统美食，鱼肉制成的腐竹状食品，口感鲜美。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.bytravel.cn/684/6842/wb380694444.jpg" alt="松岗腊鸭" />
+            </div>
+            <div class="card-content">
+                <h3>松岗腊鸭</h3>
+                <p>松岗地区的传统美食，腊鸭制作工艺独特，味道鲜美。</p>
+            </div>
+            </div>
+            
+</div>
+</body></html>
