@@ -1,4 +1,4 @@
-# navigator-ai-demo  
+navigator-ai-demo  
 
 参考[Handy Multi-Agent 教程](https://github.com/datawhalechina/handy-multi-agent)和https://github.com/fengju0213/NavigatorAI  
 
