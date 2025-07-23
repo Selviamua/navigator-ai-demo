@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><title>旅行推荐</title>
+<style>
+
+    body {
+       font-family: "Microsoft YaHei", sans-serif;
+       margin: 20px;
+       background-color: #f8f8f8;
+       line-height: 1.6;
+    }
+    h1, h2 {
+       color: #333;
+    }
+    .itinerary-text {
+       background-color: #fff;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+       margin-bottom: 30px;
+    }
+    .card-container {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+       margin: 20px 0;
+    }
+    .card {
+       flex: 0 0 calc(300px);
+       border: 1px solid #ccc;
+       border-radius: 10px;
+       overflow: hidden;
+       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+       background-color: #fff;
+    }
+    .card-image {
+       width: 100%;
+       height: 200px;
+       overflow: hidden;
+       background: #f8f8f8;
+       text-align: center;
+    }
+    .card-image img {
+       max-width: 100%;
+       max-height: 100%;
+       object-fit: cover;
+    }
+    .card-content {
+       padding: 10px 15px;
+    }
+    .card-content h3 {
+       margin-top: 0;
+       margin-bottom: 10px;
+       font-size: 18px;
+    }
+    .card-content p {
+       margin: 5px 0;
+    }
+    .image-center {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .image-center img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+</style></head><body>
+<h1>旅行行程与推荐</h1>
+<div class="itinerary-text">
+<p>由于您计划的新疆旅行只有1天的时间，因此需要选择一个相对集中且交通便利的区域进行游览。考虑到乌鲁木齐作为新疆的交通枢纽，拥有较为丰富的旅游资源，建议将行程安排在乌鲁木齐附近。以下是为您精心设计的1天行程：</p>
+<h2>Day1:</h2>
+<p>- 早餐：油塔子</p>
+<p>  - 描述：新疆传统清真面食，手工制作，适合作为早餐或小吃。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://p2.itc.cn/images01/20220501/4c52eecd43d947b1980c05cd6dffeec5.jpeg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 上午：天山天池</p>
+<p>  - 描述：位于天山山脉的博格达峰下，是新疆著名的旅游胜地之一，以湖泊、草原和森林为主，适合热爱自然风光的朋友到访。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="http://img1.qunarzz.com/travel/d7/1606/66/56c1a47d4896619a.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 出行方式：从乌鲁木齐市区出发，乘坐公交或打车前往天山天池，路程约1.5小时。</p>
+<p>  - 预计游玩时长：3小时</p>
+<p>- 午餐：手抓饭</p>
+<p>  - 描述：新疆传统美食，以米饭、羊肉、胡萝卜等为主要材料，色香味俱佳。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://i3.meishichina.com/atta/recipe/2013/02/04/20130204180215128230741.jpg?x-oss-process=style/p800" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 下午：独库公路</p>
+<p>  - 描述：连接北疆和南疆的一条著名公路，沿途风景壮丽，是自驾游的热门路线。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://img95.699pic.com/photo/50058/9453.jpg_wh860.jpg" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>  - 出行方式：从天山天池返回乌鲁木齐市区后，再驱车前往独库公路，路程约1小时。</p>
+<p>  - 预计游玩时长：2小时</p>
+<p>- 晚餐：大盘鸡</p>
+<p>  - 描述：融合了新疆本地食材和川菜的麻辣特色，鲜嫩的鸡肉、软糯的土豆，配以浓郁的调料，让人回味无穷。</p>
+<p>        <div style="text-align: center;"></p>
+<p>            <img src="https://i3.meishichina.com/atta/recipe/2013/02/04/20130204180215128230741.jpg?x-oss-process=style/p800" alt="图片" style="width: 300px; height: 200px;" /></p>
+<p>        </div></p>
+<p>- 返程：结束愉快的旅程，返回乌鲁木齐市区酒店休息。</p>
+<p>请注意，由于独库公路部分路段可能因天气原因关闭，建议提前查询路况信息，并根据实际情况调整行程。希望您在新疆度过一个美好的一天！</p>
+</div>
+<h2>景点推荐</h2>
+<div class="card-container">
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img1.qunarzz.com/travel/d7/1606/66/56c1a47d4896619a.jpg" alt="天山天池" />
+            </div>
+            <div class="card-content">
+                <h3>天山天池</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于天山山脉的博格达峰下，是新疆著名的旅游胜地之一，以湖泊、草原和森林为主，适合热爱自然风光的朋友到访。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://seopic.699pic.com/photo/50088/2460.jpg_wh1200.jpg" alt="喀什古城" />
+            </div>
+            <div class="card-content">
+                <h3>喀什古城</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于新疆喀什地区喀什市，是新疆的著名景点之一，具有丰富的历史文化和独特的建筑风格。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://seopic.699pic.com/photo/50110/6824.jpg_wh1200.jpg" alt="喀纳斯湖" />
+            </div>
+            <div class="card-content">
+                <h3>喀纳斯湖</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于新疆北部，是著名的自然风景区，以其纯净的湖水和原始的自然风光著称。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img95.699pic.com/photo/50082/2399.jpg_wh860.jpg" alt="那拉提草原" />
+            </div>
+            <div class="card-content">
+                <h3>那拉提草原</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于新疆伊犁州，是著名的草原风景区，以其广阔的草原和美丽的自然风光吸引着众多游客。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.ts.cn/003/519/168/00351916817_a12e7132.jpg" alt="唐布拉" />
+            </div>
+            <div class="card-content">
+                <h3>唐布拉</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于尼勒克县境内，是一处喀什河峡谷草原景观，因山梁上的巨大岩块形似玉玺印章而得名。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1506/02/c4/7815445_7815445_1433207763500.jpg" alt="赛里木湖" />
+            </div>
+            <div class="card-content">
+                <h3>赛里木湖</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于新疆西部，以其绝美的日出日落和蓝调时刻著称，是摄影爱好者的天堂。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://img95.699pic.com/photo/50058/9453.jpg_wh860.jpg" alt="独库公路" />
+            </div>
+            <div class="card-content">
+                <h3>独库公路</h3>
+                <p><strong>距离:</strong> </p>
+                <p>连接北疆和南疆的一条著名公路，沿途风景壮丽，是自驾游的热门路线。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://img.zcool.cn/community/0102525ed0c7faa801215aa08bc268.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100" alt="白沙湖" />
+            </div>
+            <div class="card-content">
+                <h3>白沙湖</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于南疆，以其清澈的湖水和周边的沙漠景观著称，是南疆的著名景点之一。</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://www.tsfqw.com/images/20160105171027607.jpg" alt="卡拉库里湖" />
+            </div>
+            <div class="card-content">
+                <h3>卡拉库里湖</h3>
+                <p><strong>距离:</strong> </p>
+                <p>位于南疆，以其宁静的湖面和周围的雪山景色著称，是南疆的重要旅游景点。</p>
+            </div>
+            </div>
+            
+</div>
+<h2>美食推荐</h2>
+<div class="card-container">
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://cp1.douguo.com/upload/caiku/3/6/3/yuan_368430d16c30e02b6575d8618d1d2233.jpeg" alt="羊肉串" />
+            </div>
+            <div class="card-content">
+                <h3>羊肉串</h3>
+                <p>新疆特色美食，色泽酱黄油亮，肉质鲜嫩软脆，味道麻辣，价格约为10元/串</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://cp1.douguo.net/upload/caiku/a/5/2/yuan_a5e83f2a818807552b925d49fc8cbb62.jpeg" alt="烤馕" />
+            </div>
+            <div class="card-content">
+                <h3>烤馕</h3>
+                <p>新疆特色美食，外皮香脆，内里柔软，价格约为3-5元/个</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://i2.chuimg.com/d2d7e6ede024455d82f387c9341b140d_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/75" alt="烤包子" />
+            </div>
+            <div class="card-content">
+                <h3>烤包子</h3>
+                <p>新疆特色小吃，干薄的包子皮，四边折合，内含丰富的馅料，通常在饋坑中烤制</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="" alt="手抓饭" />
+            </div>
+            <div class="card-content">
+                <h3>手抓饭</h3>
+                <p>新疆传统美食，以米饭、羊肉、胡萝卜等为主要材料，色香味俱佳</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://www.tsfqw.com/images/20160411184441790.jpg" alt="手抓羊肉" />
+            </div>
+            <div class="card-content">
+                <h3>手抓羊肉</h3>
+                <p>新疆传统美食，以新鲜羊肉为主，肉质鲜嫩，适合手抓食用</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="" alt="新疆烤肉" />
+            </div>
+            <div class="card-content">
+                <h3>新疆烤肉</h3>
+                <p>民族特色的风味小吃，色泽酱黄油亮，肉质鲜嫩软脆，味道麻辣</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="" alt="大盘鸡" />
+            </div>
+            <div class="card-content">
+                <h3>大盘鸡</h3>
+                <p>融合了新疆本地食材和川菜的麻辣特色，鲜嫩的鸡肉、软糯的土豆，配以浓郁的调料，让人回味无穷</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://i3.meishichina.com/atta/recipe/2013/02/04/20130204180215128230741.jpg?x-oss-process=style/p800" alt="新疆炒米粉" />
+            </div>
+            <div class="card-content">
+                <h3>新疆炒米粉</h3>
+                <p>以米粉为主要原料，配以各种蔬菜和肉类，色香味俱佳，口感丰富</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://pic.nximg.cn/file/20160802/22029572_005006686000_2.jpg" alt="烤马肠" />
+            </div>
+            <div class="card-content">
+                <h3>烤马肠</h3>
+                <p>新疆伊犁地方特色美食，熟食特产，适合休闲零食</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://p2.itc.cn/images01/20220501/4c52eecd43d947b1980c05cd6dffeec5.jpeg" alt="油塔子" />
+            </div>
+            <div class="card-content">
+                <h3>油塔子</h3>
+                <p>新疆传统清真面食，手工制作，适合作为早餐或小吃</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://5b0988e595225.cdn.sohucs.com/images/20180717/a4a0e0eac75045ef84279c637102b4c0.jpeg" alt="馅饼" />
+            </div>
+            <div class="card-content">
+                <h3>馅饼</h3>
+                <p>新疆传统糕点，多种口味，适合休闲食用</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://gw.alicdn.com/bao/uploaded/i4/688632004/O1CN012Y5E0c1QfsJ8KjtcA_!!688632004.jpg" alt="芝麻糕" />
+            </div>
+            <div class="card-content">
+                <h3>芝麻糕</h3>
+                <p>新疆传统糕点，甜而不腻，适合休闲食用</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="http://i0.hdslb.com/bfs/archive/5341ca7eb7b780fb825ed26fe37923fedead5d26.jpg" alt="麻花" />
+            </div>
+            <div class="card-content">
+                <h3>麻花</h3>
+                <p>新疆传统小吃，香脆可口，适合休闲食用</p>
+            </div>
+            </div>
+            
+
+            <div class="card">
+            <div class="card-image">
+                <img src="https://cp1.douguo.com/upload/caiku/f/6/9/yuan_f675f77fe89b782e76fa6c64fe68d5c9.jpeg" alt="绿豆糕" />
+            </div>
+            <div class="card-content">
+                <h3>绿豆糕</h3>
+                <p>新疆传统糕点，清凉解暑，适合夏季食用</p>
+            </div>
+            </div>
+            
+</div>
+</body></html>
